@@ -29,23 +29,8 @@ ETH
     -   The source currency, the amount to be converted, and the final currency
     -   e.g. `?from=BTC&to=USD&amount=999.20`
 -   Your service must return JSON in a structure you deem fit for the task
--   BONUS: find a clever strategy to cache responses from the external currency API
-
-### Evaluation Criteria
-
--   **Python** best practices
--   Show us your work through your commit history
--   We're looking for you to produce working code, with enough room to demonstrate how to structure components in a small program
--   Completeness: Did you complete the features?
--   Correctness: Does the functionality act in sensible, thought-out ways?
--   Maintainability: Is it written in a clean, maintainable way?
--   Testing: Is the system adequately tested?
-
-### CodeSubmit
-
-Please organize, design, test, and document your code as if it were going into production - then push your changes to the master branch. After you have pushed your code, you may submit the assignment on the assignment page.
-
-All the best and happy coding,
+ 
+ 
 
 
 # Project Setup and Run Guide
@@ -89,6 +74,3 @@ curl -X 'GET'   'http://localhost:8000/convert?from_currency=USD&to_currency=EUR
 
 {"from_currency":"USD","to_currency":"EUR","amount":100,"converted_amount":93.07853456717868,"rate":"0.9307853456717867","from_cache":false}
  
-### TODO
-
-Add unit tests
